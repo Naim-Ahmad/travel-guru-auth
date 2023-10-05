@@ -1,0 +1,16 @@
+.floating-label {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #c5c5c5;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.floating-label:focus {
+    outline: none;
+    border: none;
+    outline-offset: none;
+    box-shadow: none;
+    border-bottom: 2px solid #c5c5c5;
+}
