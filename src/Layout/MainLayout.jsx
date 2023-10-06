@@ -6,7 +6,7 @@ export default function MainLayout() {
   return (
     <div>
         <Toaster/>
-        <Outlet></Outlet>
+      <Outlet></Outlet>
     </div>
   )
 }

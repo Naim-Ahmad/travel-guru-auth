@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "tourist_destination": "Cox's Bazar",
+        "destination_definition": "Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach...",
+        "destination_Image": "https://i.ibb.co/Cs7gLGr/Rectangle-1.png",
+        "destination_definition_details": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island."
+    },
+    {
+        "id": "2",
+        "tourist_destination": "Sundarbans Mangrove Forest",
+        "destination_definition": "The Sundarbans Mangrove Forest is a unique UNESCO World Heritage Site located in southwestern Bangladesh. It is renowned for its vast network of mangrove trees, diverse wildlife, and rich biodiversity.",
+        "destination_Image": "https://i.ibb.co/x1ddJ99/sundorbon.png",
+        "destination_definition_details": "The Sundarbans Mangrove Forest is a sprawling natural wonder, covering over 10,000 square kilometers of land and water. It is home to the famous Bengal tiger, along with saltwater crocodiles and a variety of bird species. Tourists can explore this unique ecosystem through boat tours and experience the enchanting beauty of the forest."
+    },
+    {
+        "id": "3",
+        "tourist_destination": "Sajek Valley",
+        "destination_definition": "Sajek Valley is a picturesque hill station nestled in the Chittagong Hill Tracts of Bangladesh. It is known for its lush green landscapes, rolling hills, and serene atmosphere.",
+        "destination_Image": "https://i.ibb.co/HPj9hJp/Sajek.png",
+        "destination_definition_details": "Sajek Valley offers a tranquil escape from the hustle and bustle of city life. Tourists can enjoy breathtaking views of the surrounding hills, go trekking through the forests, and interact with the indigenous Khasi people who call this valley home. The valley is dotted with bamboo cottages where visitors can stay and immerse themselves in the natural beauty of the region."
+    },
+    {
+        "id": "4",
+        "tourist_destination": "Ratnodweep Island",
+        "destination_definition": "Ratnodweep Island is a hidden gem located in the Bay of Bengal, near the coast of Bangladesh. This small island is famous for its pristine beaches, crystal-clear waters, and vibrant marine life.",
+        "destination_Image": "https://i.ibb.co/YZ1mFz9/Sreemongol.png",
+        "destination_definition_details": "Ratnodweep Island is a paradise for beach lovers and snorkelers. Tourists can explore colorful coral reefs, swim with exotic fish, and relax on the sandy shores. The island is accessible by boat and provides a serene getaway for those seeking tranquility and natural beauty."
+    },
+    {
+        "id": "5",
+        "tourist_destination": "Rangamati Hill District",
+        "destination_definition": "Rangamati Hill District is a stunning hill station located in the southeastern part of Bangladesh. It is known for its picturesque lakes, lush hills, and indigenous culture.",
+        "destination_Image": "https://ibb.co/CbDDhCC",
+        "destination_definition_details": "Rangamati Hill District offers a blend of natural beauty and cultural experiences. Tourists can explore the Kaptai Lake, go for boat rides, and visit indigenous villages to learn about the diverse tribes that inhabit the area. The district is a haven for hikers and nature enthusiasts, with numerous trails and viewpoints to discover."
+    }
+]

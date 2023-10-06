@@ -1,13 +1,13 @@
-import { FacebookAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithPopup, updateProfile } from 'firebase/auth';
-import React, { useState } from 'react';
+import { FacebookAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
+import PropTypes from 'prop-types';
+import React, { useEffect, useState } from 'react';
 import auth from '../firebase/firebase.config';
 
-export const AuthContext = React.createContext()
+export const AuthContext = React.createContext(null)
 
 export default function AuthProvider({ children }) {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [message, setMessage] = useState({})
 
     const signUpWithEmail = ( email, password) => {
         return createUserWithEmailAndPassword(auth, email, password)
@@ -28,18 +28,36 @@ export default function AuthProvider({ children }) {
             photoURL: photoURL
         })
     }
+
+    const logOut = () => {
+        return signOut(auth)
+    }
+
+    useEffect(() => {
+        const unsubscribe = onAuthStateChanged(auth, (user) => {
+            setUser(user)
+            setLoading(false)
+        })
+        return ()=> unsubscribe()
+    },[])
     
     
     const authInfo = {
+        loading,
+        user, 
         signUpWithEmail,
         updateUserProfile,
         continueWithGoogle,
         continueWithFacebook,
-        message
+        logOut
     }
   return (
       <AuthContext.Provider value={authInfo}>
           {children}
     </AuthContext.Provider>
   )
+}
+
+AuthProvider.propTypes = {
+    children: PropTypes.node
 }

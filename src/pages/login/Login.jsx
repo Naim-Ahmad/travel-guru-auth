@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Divider from '../../components/Divider';
 import FloatingLabel from '../../components/FloatingLabel';
 import SocialAuth from '../../components/SocialAuth';
-import MyNavbar from '../../Layout/Navbar';
+import MyNavbar from '../../Layout/navbar/MyNavbar';
 
 
 export default function Login() {

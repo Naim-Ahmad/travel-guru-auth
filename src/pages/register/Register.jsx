@@ -2,7 +2,7 @@ import { Button, Checkbox, Label } from 'flowbite-react';
 import { useContext } from 'react';
 import toast from 'react-hot-toast';
 import { Link } from 'react-router-dom';
-import MyNavbar from '../../Layout/Navbar';
+import MyNavbar from '../../Layout/navbar/MyNavbar';
 import Divider from '../../components/Divider';
 import FloatingLabel from '../../components/FloatingLabel';
 import SocialAuth from '../../components/SocialAuth';
@@ -18,6 +18,7 @@ export default function Register() {
         const email = form.get('email')
         const password = form.get('password')
         const confirmPassword = form.get('confirm-password')
+
         signUpWithEmail(email, password)
         .then(() => {
             updateUserProfile(firstName + lastName)
