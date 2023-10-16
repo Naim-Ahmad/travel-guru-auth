@@ -19,7 +19,7 @@ export default function Booking() {
     return (
       <>
         <MyNavbar />
-            <main>
+            <main className="max-w-7xl mx-auto">
                 <section className="flex gap-8 items-center min-h-[80vh]">
                     <div className="flex-1">
                         <h1 className="text-4xl font-semibold font-title-font mb-4">{ findData.tourist_destination }</h1>

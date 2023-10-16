@@ -14,13 +14,14 @@ export default function MyNavbar({ classes }) {
   
  
   return (
+    <div className="max-w-7xl mx-auto">
     <Navbar
       fluid
       rounded
       className={`${classes && classes} `}
     >
       
-    <Link to='/'>
+      <Link to='/'>
         <img
         alt="Travel Guru Logo"
         className="mr-3 h-6 sm:h-9"
@@ -56,5 +57,6 @@ export default function MyNavbar({ classes }) {
         </NavLink>
       </Navbar.Collapse>
     </Navbar>
+    </div>
   )
 }

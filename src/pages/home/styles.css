@@ -1,0 +1,38 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide-active .myCard{
+    border: 4px solid #FBBC04;
+    border-radius: 26px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    width: max-content;
+  }
+
+  .mySwiper{
+    height: 90vh;
+  }
+  
+  
